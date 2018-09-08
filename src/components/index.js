@@ -1,0 +1,1 @@
+export { WidgetTable } from './WidgetTable';
