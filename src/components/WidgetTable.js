@@ -3,16 +3,18 @@ import * as React from 'react';
 export const WidgetTable = ({ widgets }) =>
   <table>
     <thead>
-      <th>Id</th>
-      <th>Name</th>
-      <th>Description</th>
-      <th>Color</th>
-      <th>Size</th>
-      <th>Price</th>
-      <th>Quantity</th>
+      <tr>
+        <th>Id</th>
+        <th>Name</th>
+        <th>Description</th>
+        <th>Color</th>
+        <th>Size</th>
+        <th>Price</th>
+        <th>Quantity</th>
+      </tr>
     </thead>
     <tbody>
-      {widgets.map(widget => <tr>
+      {widgets.map(widget => <tr key={widget.id}>
         <td>{widget.id}</td>
         <td>{widget.name}</td>
         <td>{widget.description}</td>
