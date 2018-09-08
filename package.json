@@ -28,7 +28,7 @@
     "start-client": "react-scripts start",
     "build-client": "react-scripts build",
     "start-rest-server": "json-server --port 3040 --watch db.json --static node_modules/json-server/dist",
-    "start-graphql-server": "npm run build-graphql-server & concurrently \"npm run build-graphql-server\" \"npm run run-graphql-server\"",
+    "start-graphql-server": "npm run build-graphql-server & concurrently \"npm run watch-graphql-server\" \"npm run run-graphql-server\"",
     "run-graphql-server": "nodemon --delay 1 --watch graphql-server-dist ./graphql-server-dist/index",
     "watch-graphql-server": "chokidar \"graphql-server/**/*.js\" -c \"npm run build-graphql-server\"",
     "build-graphql-server": "babel graphql-server -d graphql-server-dist"
