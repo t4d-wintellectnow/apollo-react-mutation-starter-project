@@ -22,13 +22,15 @@ npm install
 
 npm run start-rest-server
 ```
-**Step 4.** Open a second terminal window and change to the folder containing the "package.json" file.<br />
+**Step 4.** Open a second terminal window and change to the folder containing the "package.json" file.
+
 **Step 5.** Run the following command:
 
 ```bash
 npm run start-graphql-server
 ```
-**Step 6.** Open a third terminal window and change to the folder containing the "package.json" file.<br />
+**Step 6.** Open a third terminal window and change to the folder containing the "package.json" file.
+
 **Step 7.** Run the following command:
 
 ```bash
