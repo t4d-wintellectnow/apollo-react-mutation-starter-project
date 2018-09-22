@@ -1,4 +1,5 @@
-import * as React from 'react';
+import React from 'react';
+import PropTypes from 'prop-types';
 
 export const WidgetTable = ({ widgets }) =>
   <table>
@@ -25,3 +26,7 @@ export const WidgetTable = ({ widgets }) =>
       </tr>)}
     </tbody>
   </table>;
+
+WidgetTable.propTypes = {
+  widgets: PropTypes.array.isRequired,
+};
