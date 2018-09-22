@@ -11,8 +11,10 @@ This project is for used with the Mastering Apollo Series on WintellectNOW [http
 
 ### Instructions
 
-**Step 1.** Clone/Download this repository. If downloading the zip file, then extract the zip file.<br />
-**Step 2.** Open a terminal window and change to the folder containing the "package.json" file.<br />
+**Step 1.** Clone/Download this repository. If downloading the zip file, then extract the zip file.
+
+**Step 2.** Open a terminal window and change to the folder containing the "package.json" file.
+
 **Step 3.** Run the following commands:
 
 ```bash
