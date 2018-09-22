@@ -7,10 +7,14 @@ import { InMemoryCache } from 'apollo-cache-inmemory';
 import { HttpLink } from 'apollo-link-http';
 import { ApolloClient } from 'apollo-client';
 
+import './index.css';
+
+const GRAPHQL_PORT = process.env.REACT_APP_GRAPHQL_PORT || 3010;
+
 const cache = new InMemoryCache();
 
 const link = new HttpLink({
-  uri: 'http://localhost:3030/graphql',
+  uri: `http://localhost:${GRAPHQL_PORT}/graphql`,
 });
 
 const client = new ApolloClient({
